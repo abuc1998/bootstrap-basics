@@ -1,4 +1,4 @@
-<h2>bootstrap basics</h2>
-<p>introduction to bootstrap classes and datatables</p>
-<p>bootstrap 4 tables</p>
-<img src="images/bootstraptables.PNG" alt="">
+<h1>learning about structures,lists,and forms of bootstrap</h1>
+<p>here are some pics</p>
+<img src="images/forms%20botstrap.PNG.png" alt="">
+<img src="images/lists.PNG" alt="">
