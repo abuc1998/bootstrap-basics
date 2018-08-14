@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>structures2</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+        <form action="">
+            <div class="form group">
+                <label for="email">Email adress</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+
+            <div class="form-group">
+                <label for="names"> Names</label>
+                <input type="names" class="form-control" id="names" >
+
+            </div>
+            <div class="form-group">
+                <label for="number"> Telephone number</label>
+                <input type="tel" class="form-control" id="telephone" required min="10" max="10">
+            </div>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" class="form-control" id="number" min="18" max=" 35">
+            </div>
+            <div class="form-group">
+                <label for="password"> password</label>
+                <input type="password" class="form-control" id="password">
+            </div>
+            <div class=" form-check-label">
+                <label for="gender">
+                    <input type="radio" class="form-check-input" name="gender" checked> male
+                </label>
+            </div>
+            <div class=" form-check-label">
+                <label for="gender">
+                    <input type="radio" class="form-check-input" name="gender"> female
+                </label>
+            </div>
+            <select class="form-control form-group ">
+                <option value="checkbox">university</option>
+                <option value="">college</option>
+                <option value="">polytechnic</option>
+                <option value="">secondary</option>
+            </select>
+            <div>
+                <button class="btn-danger">
+                    submit
+                </button>
+            </div>
+        </form>
+    </div>
+    <div class="col-sm-4"></div>
+
+</div>
+</body>
+</html>
