@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>filters</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+
+</head>
+<body>
+<input type="text"placeholder="search" id="input" class="form-control">
+<div>
+    <table class="table table-bordered table-hover table-danger table-sm " >
+        <thead>
+        <tr>
+
+            <th>NAMES</th>
+            <th>EMAIL</th>
+        </tr>
+        </thead>
+        <tbody id="abu">
+        <tr>
+            <td>james</td>
+            <td>ktf@gmail.com</td>
+        </tr>
+        <tr>
+            <td>john</td>
+            <td>ktf@gmail.com</td>
+
+        </tr>
+        <tr>
+            <td>njuguna</td>
+            <td>ktf@gmail.com</td>
+
+        </tr>
+        <tr>
+            <td>kamiri</td>
+            <td>ktf@gmail.com</td>
+
+        </tr>
+        <tr>
+            <td>jambi</td>
+            <td>ktf@gmail.com</td>
+
+        </tr>
+        <tr>
+            <td>kamau</td>
+            <td>ktf@gmail.com</td>
+
+        </tr>
+        <tr>
+            <td>david</td>
+            <td>ktf@gmail.com</td>
+
+        </tr>
+        <tr>
+            <td>njogu</td>
+            <td>ktf@gmail.com</td>
+        </tr>
+        <tr>
+            <td>joseph</td>
+            <td>ktf@gmail.com</td>
+
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+
+<!--<script >-->
+    <!--$(document).ready(function () {-->
+        <!--$("#input").on("keyup",function () {-->
+            <!--var value=$(this).val().toLowerCase();-->
+            <!--$("#abu tr").filter(function () {-->
+                <!--$(this).toggle($(this).toLowerCase().indexOf(value)> -1 )-->
+            <!--});-->
+        <!--});-->
+    <!--});-->
+<!--</script>-->
+<script>
+    $(document).ready(function(){
+        $("#inputnput").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $("#abu tr ").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    });
+</body>
+</html>
